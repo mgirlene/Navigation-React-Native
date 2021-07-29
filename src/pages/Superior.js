@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, ImageBackground } from 'react-native';
 import Styles from '../style/styles';
-import { MyBtn } from '../components/button';
+import { MyButton } from '../components/MyButton';
 
 export function Superior({ navigation }) {
     return (
@@ -10,9 +10,9 @@ export function Superior({ navigation }) {
                 source={require('../images/if.png')}
                 resizeMode="cover"
                 style={Styles.imgCourse}>
-                <View style={Styles.btn}>
-                    <MyBtn titulo="Análise de Sistemas" onPress={() => navigation.navigate('Analise de Sistemas')} />
-                    <MyBtn titulo="Química" onPress={() => navigation.navigate('Quimica')} />
+                <View style={Styles.Button}>
+                    <MyButton titulo="Análise de Sistemas" onPress={() => navigation.navigate('Analise de Sistemas')} />
+                    <MyButton titulo="Química" onPress={() => navigation.navigate('Quimica')} />
                 </View>
             </ImageBackground>
         </View>

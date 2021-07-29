@@ -10,7 +10,6 @@ const Styles = StyleSheet.create({
         flex: 1,
     },
     Button: {
-        backgroundColor: 'rgba(255,255,255,0.3)',
         width: '100%',
         alignItems: 'center'
     },
@@ -46,10 +45,10 @@ const Styles = StyleSheet.create({
         paddingTop: Platform.OS === 'android' ? 40 : 0,
     },
     btn: {
-        backgroundColor: 'rgba(255,255,255,0.8)',
+        backgroundColor: 'rgba(255,255,255,0.9)',
         width: 300,
         height: 50,
-        margin: 10,
+        margin: 20,
         borderRadius: 15,
         justifyContent: 'center',
         alignItems: 'center',
@@ -61,16 +60,16 @@ const Styles = StyleSheet.create({
     },
     title: {
         fontWeight: 'bold',
-        fontSize: 20,
+        fontSize: 24,
         textAlign: 'center',
         padding: 20
     },
     viewTxt: {
-        width: '95%',
-        height: '95%',
+        width: '100%',
+        height: '100%',
         padding: 10,
-        backgroundColor: 'rgba(255,255,255,0.8)',
-        borderRadius: 15,
+        backgroundColor: 'rgba(255,255,255,0.9)',
+        borderRadius: 70,
         justifyContent: 'space-evenly'
     },
     txtCourses: {
@@ -80,11 +79,7 @@ const Styles = StyleSheet.create({
     },
     bold: {
         fontWeight: 'bold',
-        lineHeight: 20
-    },
-    imgLogo: {
-        width: '90%',
-        height: 100,
+        lineHeight: 30
     },
     containerCourse: {
         flex: 1,

@@ -46,21 +46,21 @@ export function Routes() {
         <TabNav.Navigator>
             <TabNav.Screen name="Home"
                 options={{
-                    tabBarIcon: () => <FontAwesome5 name="home" size={24} color="black" />,
+                    tabBarIcon: () => <FontAwesome5 name="home" size={26} color="green" />,
                     title: 'Home',
                 }}
                 component={Home} />
 
             <TabNav.Screen name="Superior"
                 options={{
-                    tabBarIcon: () => <FontAwesome5 name="user-graduate" size={24} color="black" />,
+                    tabBarIcon: () => <FontAwesome5 name="user-graduate" size={26} color="green" />,
                     title: 'Superior',
                 }}
                 component={superiorStackScreen} />
 
             <TabNav.Screen name="Tecnico"
                 options={{
-                    tabBarIcon: () => <FontAwesome5 name="user-alt" size={24} color="black" />,
+                    tabBarIcon: () => <FontAwesome5 name="user-alt" size={26} color="green" />,
                     title: 'Tecnico',
                 }}
                 component={tecnicoStackScreen} />

@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import Styles from '../style/styles';
 
-export function MyBtn(props) {
+export function MyButton(props) {
     return (
         <View>
             <TouchableOpacity style={Styles.btn} onPress={props.onPress}>
